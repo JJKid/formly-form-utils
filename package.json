@@ -1,6 +1,6 @@
 {
   "name": "formly-form-utils",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "author": "Juan Jose Arroyo",
   "scripts": {
     "ng": "ng",
@@ -21,6 +21,7 @@
     "@angular/router": "^18.0.0",
     "@ionic/angular": "^8.0.0",
     "@ngx-formly/core": "^6.3.6",
+    "pouchdb": "^9.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.6.3",
     "zone.js": "~0.14.2"
@@ -52,9 +53,7 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "ng-packagr": "^18.1.0",
-    "typescript": "~5.4.0"
-  },
-  "dependencies": {
-    "pouchdb": "^9.0.0"
+    "typescript": "~5.4.0",
+    "@types/pouchdb": "^6.4.2"
   }
 }
